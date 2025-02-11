@@ -62,7 +62,10 @@ fun main(){
     departamento.agregarEmpleado(empleado3)
     departamento.agregarEmpleado(empleado4)
 
+
+println("\n **LISTA DE EMPLEADOS**")
     departamento.mostrarEmpleados()
-    println("Salario total del departamento: ${"%.2f".format(departamento.calcularSalarioTotal())}")
+    print("**************************************")
+    println("\nSalario total del departamento: ${"%.2f".format(departamento.calcularSalarioTotal())}")
 
 }
